@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shaunting-Yard</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body style="text-align: center; background-color: white">
+    <h1>The Shunting-Yard Algorithm</h1>
+    <br />
+    <br />
+    <input
+      type="text"
+      name="input"
+      id="input"
+      placeholder="Enter Expression"
+      value="3 + 4 * 2 / ( 1- 5) ^ 2 ^ 3"
+    />
+
+    <input
+      type="submit"
+      name="submit"
+      id="btn"
+      class="btn-primary"
+      value="Evaluate"
+    />
+    <br />
+    <br />
+    <h5 id="output"></h5>
+    <br />
+    <p>
+      <b>You can try inputs such as:</b> <br />
+      3 + 4 * 2 / ( 1- 5) ^ 2 ^ 3 <br />
+      sin ( max ( 2, 3 ) / 3 * pi )<br />
+      4 % 3 + 64 -3 + (3 +2) ^2
+    </p>
+    <br />
+    <h4>Here's a list of operators that are implemented:</h4>
+    <ul>
+      sin, cos, tan, ln, log, sqrt
+      <br />
+      '+', '-', '*', '/', '%', '^'
+      <br />
+      max, min
+      <br />
+      ( )
+      <br />
+    </ul>
+
+    <p>
+      Please visit
+      <a href="https://en.wikipedia.org/wiki/Shunting-yard_algorithm"
+        >the Wikipedia page</a
+      >
+      for more details on the Shunting-Yard Algorithm
+    </p>
+    <p>
+      Please visit
+      <a href="https://github.com/maan-patel/Shuting-Yard"
+        >the Github repository for this project</a
+      >
+      for the code in JS
+    </p>
+  </body>
+  <script src="shuntingYard.js"></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+    crossorigin="anonymous"
+  ></script>
+</html>
